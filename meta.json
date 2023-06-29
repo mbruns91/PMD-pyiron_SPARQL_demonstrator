@@ -1,0 +1,32 @@
+{
+    "workflow_environment":"pyiron",
+    "title": "pyiron workflow: tensile test",
+    "authors": [
+        "Marian Bruns <m.bruns@mpie.de>"
+    ],
+    "description": "In this workflow, experimental datasets of tensile tests are obtained via sparql queries to a triple store. Then, elastic moduli and Rp0.2 values are calculcated.",
+    "release": "0.0.2",
+    "keywords": [
+        "workflow",
+        "pyiron",
+        "ontology",
+        "sparql",
+        "experiment",
+        "tensile_test"
+    ],
+    "categories":[
+        "ontology",
+        "experiment"        
+    ],
+    "steps/codes":[
+        "step1: Obtaining experimental data and visualization",
+        "step2: Calculation of the elastic moduli and Rp0.2 values"
+    ],
+    "license": {
+
+    },
+    "publication": [
+
+    ],
+    "logo" : "logo_dark.png"
+}
