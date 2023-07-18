@@ -1,1 +1,8 @@
 endpoint+token.txt
+testnotebook.ipynb
+_toc.yml
+pyiron.db
+pyiron.log
+*_analysis
+*_analysis/*
+.ipynb_checkpoints
