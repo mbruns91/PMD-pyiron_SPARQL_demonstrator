@@ -1,4 +1,0 @@
-format: jb-book
-root: README
-chapters:
-- file: sparql_tensile_test.ipynb
