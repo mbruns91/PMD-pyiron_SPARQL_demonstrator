@@ -209,6 +209,10 @@ class TensileJob(PythonTemplateJob):
         self.output.Rp02 = self.input.stress[arg]
 
     def run_static(self):
+        self.query_cross_section_area()
+        self.query_raw_data_url()
+        self.load_force_and_strain()
+        self.calc_stress()
         self.calc_elastic_modulus()
         self.calc_Rp02()
         self.to_hdf()
